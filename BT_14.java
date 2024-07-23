@@ -7,6 +7,7 @@ public class BT_14
     {
         if(root==null)
             return 0;
+        
         int lh=maxDepth(root.left);
         int rh=maxDepth(root.right);
 
